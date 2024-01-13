@@ -1,0 +1,50 @@
+#s_container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slide {
+    display: none;
+    position: absolute;
+    width: 300PX;
+    height: auto;
+  }
+
+  #stopBtn {
+      width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4c8baf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 400px;
+    margin-left: 650px;
+  }
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .imgs {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .text {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width:200;
+    background-color: rgba(84, 83, 83, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
